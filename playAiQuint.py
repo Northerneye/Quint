@@ -497,7 +497,7 @@ def main():
                 player2turn()
 aiPlayer = workerNet(0,0,0)
 turnorder = int(input("would you like to be player1 or player2(ex. 1): "))
-name = input("Which net would you like to play: ")
+name = "QuintNet"
 myfile = open(name+".txt", "r")
 Memory = myfile.read()
 weights0a = []
